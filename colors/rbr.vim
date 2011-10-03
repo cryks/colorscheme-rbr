@@ -80,3 +80,8 @@ hi templateControlFunction ctermfg=143 guifg=#afaf5f
 hi templateControlTag ctermfg=239 guifg=#4e4e4e
 hi templateTag ctermfg=245 guifg=#8a8a8a
 hi topazArrow ctermfg=238 guifg=#444444
+
+hi javaScriptNull ctermfg=227 guifg=#ffff5f
+hi javaScriptType ctermfg=227 guifg=#ffff5f
+hi javaScriptLabel ctermfg=155 guifg=#afff5f
+
