@@ -12,8 +12,11 @@ let colors_name = "rbr"
 " This file is for 256 color enabled terminal
 set t_Co=256
 
-au FileType scheme hi Special ctermfg=240 guifg=#585858
-au FileType lisp hi Special ctermfg=240 guifg=#585858
+"au FileType scheme hi Special ctermfg=240 guifg=#585858
+"au FileType lisp hi Special ctermfg=240 guifg=#585858
+au FileType scheme hi Delimiter ctermfg=240
+hi BDelimiter ctermfg=220
+"au FileType scheme hi BDelimiter ctermfg=220
 "hi Comment ctermfg=35 guifg=#00af5f gui=none
 hi Comment ctermfg=242 guifg=#808080 gui=none
 hi Constant ctermfg=203 guifg=#ff5f5f
