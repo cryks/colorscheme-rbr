@@ -14,8 +14,14 @@ set t_Co=256
 
 "au FileType scheme hi Special ctermfg=240 guifg=#585858
 "au FileType lisp hi Special ctermfg=240 guifg=#585858
-au FileType scheme hi Delimiter ctermfg=240
+au FileType scheme hi Delimiter ctermfg=238
 hi BDelimiter ctermfg=220
+hi QuoteDelimiter ctermfg=247
+hi QuasiDelimiter ctermfg=208
+hi UnquoteDelimiter ctermfg=136
+hi Unquote ctermfg=136
+hi VectorDelimiter ctermfg=247
+hi Quote ctermfg=50
 "au FileType scheme hi BDelimiter ctermfg=220
 "hi Comment ctermfg=35 guifg=#00af5f gui=none
 hi Comment ctermfg=242 guifg=#808080 gui=none
